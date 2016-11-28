@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="downloadImage"
+        android:text="Download Image" >
+    </Button>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="CancelDownload"
+        android:text="Cancel Download" />
+
+    <TextView  
+        android:id="@+id/tvUpdate" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Update Work Progress...!"/>
+    
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+     
+
+</LinearLayout>

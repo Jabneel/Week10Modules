@@ -1,0 +1,7 @@
+#Sat Nov 19 11:25:32 EST 2016
+base.0=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_af1827820645b1f799e08c43613d0281b87a492b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6ff8905fb5ff920818a6a3d77e814e1714cb255a/classes.dex
+base.1=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6ff8905fb5ff920818a6a3d77e814e1714cb255a
+file.0=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_af1827820645b1f799e08c43613d0281b87a492b/classes.dex

@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Sat Nov 19 11:25:17 EST 2016
+1.base=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/res/resources-debug.ap_
+4.file=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
+1.file=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+4.set=ANDROID_RESOURCE
+2.base=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/res/resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+count=5
+1.set=ANDROID_RESOURCE
+3.base=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/res/resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/res/resources-debug.ap_
+3.file=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.file=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/res/resources-debug.ap_/res/menu/main.xml
+4.base=/Users/haki/Documents/Android/MAPD111F16/SecondHalf/SendSMS/build/intermediates/res/resources-debug.ap_
