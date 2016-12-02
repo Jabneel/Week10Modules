@@ -9,10 +9,22 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AsyncDownloadImage" />
+            <option value="$PROJECT_DIR$/JabneelLab22" />
+            <option value="$PROJECT_DIR$/LaunchMap" />
+            <option value="$PROJECT_DIR$/LocatinReverseGeoV2" />
+            <option value="$PROJECT_DIR$/LocationS33" />
+            <option value="$PROJECT_DIR$/LocationServices" />
+            <option value="$PROJECT_DIR$/MapMyFirstName" />
+            <option value="$PROJECT_DIR$/MapMyLocation2" />
             <option value="$PROJECT_DIR$/NetworkingActivity" />
             <option value="$PROJECT_DIR$/RetrieveDataWeb1" />
+            <option value="$PROJECT_DIR$/RetrieveDataWeb2" />
+            <option value="$PROJECT_DIR$/SMSRecieve" />
             <option value="$PROJECT_DIR$/SendSMS" />
+            <option value="$PROJECT_DIR$/SendSMSFromWeek11" />
+            <option value="$PROJECT_DIR$/WriteTextIntoFile3" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/webViewExample" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

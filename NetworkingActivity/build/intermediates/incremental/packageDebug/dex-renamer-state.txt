@@ -1,7 +1,0 @@
-#Wed Nov 23 19:55:12 EST 2016
-base.0=C\:\\Users\\Jabneel\\Desktop\\CENG319 Software Android\\Week10Modules\\NetworkingActivity\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_09a8bff384d89261559272b6d4b0e8e20a3a3e52
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Jabneel\\Desktop\\CENG319 Software Android\\Week10Modules\\NetworkingActivity\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_cf975b5843585c1defbca54371a6112ad99945b3\\classes.dex
-base.1=C\:\\Users\\Jabneel\\Desktop\\CENG319 Software Android\\Week10Modules\\NetworkingActivity\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_cf975b5843585c1defbca54371a6112ad99945b3
-file.0=C\:\\Users\\Jabneel\\Desktop\\CENG319 Software Android\\Week10Modules\\NetworkingActivity\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_09a8bff384d89261559272b6d4b0e8e20a3a3e52\\classes.dex

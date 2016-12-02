@@ -1,1 +1,2 @@
-include ':app', ':AsyncDownloadImage', ':NetworkingActivity', ':RetrieveDataWeb1', ':SendSMS'
+include ':app', ':AsyncDownloadImage', ':RetrieveDataWeb1', ':SendSMS', ':LaunchMap', ':LocatinReverseGeoV2', ':LocationS33', ':LocationServices', ':MapMyFirstName', ':WriteTextIntoFile3', ':MapMyLocation2', ':NetworkingActivity', ':RetrieveDataWeb2', ':SendSMSFromWeek11', ':SMSRecieve', ':JabneelLab22'
+include ':webViewExample'

@@ -1,29 +1,5 @@
 [
     {
-        "outputFile": "C:\\Users\\haki\\Documents\\Android\\MAPD111F16\\SecondHalf\\SendSMS\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 58,
-                    "endOffset": 109
-                },
-                "from": {
-                    "file": "C:\\Users\\haki\\Documents\\Android\\MAPD111F16\\SecondHalf\\SendSMS\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 205,
-                        "endColumn": 58,
-                        "endOffset": 259
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "C:\\Users\\Jabneel\\Desktop\\CENG319 Software Android\\Week10Modules\\SendSMS\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {

@@ -1,7 +1,6 @@
 package com.connectivity.networkingactivity;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -28,35 +27,33 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 public class MainActivity extends Activity {
-	EditText et;
-	String word;
-	TextView textView;
+	TextView tvRes;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		//---access	a	Web	Service	using	GET---
+		tvRes = (TextView)findViewById(R.id.tvResult);
+		final EditText etInput = (EditText) findViewById(R.id.etInput);
+		Button bClick = (Button)findViewById(R.id.bOne);
 
-		Button button = (Button) findViewById(R.id.button);
-		textView= (TextView) findViewById(R.id.textView);
-		et  = (EditText) findViewById(R.id.editText);
 
-		button.setOnClickListener(new View.OnClickListener()
-		{
-			public void onClick(View v){
-				if (et.length() >2){
-					new	AccessWebServiceTask().execute( et.getText().toString());
+		bClick.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				if(etInput.getText().toString().length() > 2) {
+					new AccessWebServiceTask().execute(etInput.getText().toString());
+				}else{
+					Toast.makeText(getBaseContext(), "Test should be more than 2 letters!", Toast.LENGTH_LONG).show();
 				}
-				else
-				{
-					AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 
-					//builder.setMessage("Please enter atleast 2 characters");
-					//builder.setNeutralButton("OK",(dialog,which)->{
-					//}); builder.show();
-
-				}
 			}
 		});
+
+
+		//new	AccessWebServiceTask().execute("onion");
+
+
 	}
 	
 	private String WordDefinition(String word) {
@@ -150,9 +147,9 @@ public class MainActivity extends Activity {
 		}
 		
 			
-		protected void onPostExecute(String result) {
+			protected void onPostExecute(String result) {
+				tvRes.setText(result);
 			//Toast.makeText(getBaseContext(), result, Toast.LENGTH_LONG).show();
-			textView.setText(result);
 		}
 	}
 

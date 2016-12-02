@@ -27,51 +27,56 @@ final String textSource = "http://api.flickr.com/services/feeds/photos_public.gn
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		tv1 = (TextView) findViewById(R.id.textView1);
 		tv2 = (TextView) findViewById(R.id.textView2);
-		
+
 		btnRetrieve = (Button) findViewById(R.id.btn_retrieve);
 
 		btnRetrieve.setOnClickListener(new View.OnClickListener() {
 			public void onClick (View v) {
-				try
-				{
-				//TO DO
-					 URL textUrl;
-					  try {
-					   textUrl = new URL(textSource);
-					   BufferedReader bufferReader = new BufferedReader(new InputStreamReader(textUrl.openStream()));
-					   String StringBuffer;
-					         String stringText = "";
-					   while ((StringBuffer = bufferReader.readLine()) != null) {
-					    stringText += StringBuffer;
-					   }
-					         bufferReader.close();
-					         tv2.setText(stringText);
-					  } catch (MalformedURLException e) {
-					   // TODO Auto-generated catch block
-					   e.printStackTrace();
-					   tv2.setText(e.toString());
-					  } catch (IOException e) {
-					   // TODO Auto-generated catch block
-					   e.printStackTrace();
-					   tv2.setText(e.toString());
-					  }
-
-					  tv1.setText("Finished!");
-
-
-
-				Toast.makeText(getBaseContext(), "Data Retrieved Successufully", Toast.LENGTH_LONG).show();
-				}
-				catch (Exception e){
-					Toast.makeText(getBaseContext(), "Error Occurred " +e.toString(), Toast.LENGTH_LONG).show();
-				}
+				openHttp();
 			}
 		});
 	}
 
+	private void openHttp()
+	{
+		try
+		{
+			//TO DO
+			URL textUrl;
+			try {
+				textUrl = new URL(textSource);
+				BufferedReader bufferReader = new BufferedReader(new InputStreamReader(textUrl.openStream()));
+				String StringBuffer;
+				String stringText = "";
+				while ((StringBuffer = bufferReader.readLine()) != null) {
+					stringText += StringBuffer;
+				}
+				bufferReader.close();
+				tv2.setText(stringText);
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				tv2.setText(e.toString());
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				tv2.setText(e.toString());
+			}
+
+			tv1.setText("Finished!");
+
+
+
+			Toast.makeText(getBaseContext(), "Data Retrieved Successufully", Toast.LENGTH_LONG).show();
+		}
+		catch (Exception e){
+			Toast.makeText(getBaseContext(), "Error Occurred " +e.toString(), Toast.LENGTH_LONG).show();
+		}
+
+	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
